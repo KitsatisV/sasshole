@@ -33,7 +33,7 @@ jobs:
           if [ -z "${BUMP_TYPE}" ]; then
             echo "Skipping publish as BUMP_TYPE is not set."
           else
-            if [ -z "${{ secrets.NPM_TOKEN }}" ]; then
+            if [ -z "$NODE_AUTH_TOKEN" ]; then
             echo "NPM_TOKEN is not set. Skipping publish."
           else
             npm version ${BUMP_TYPE}
