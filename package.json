@@ -1,0 +1,24 @@
+{
+  "name": "sasshole",
+  "version": "0.1.0-alpha",
+  "description": "A sassy npm package to jump-start your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KitsatisV/sasshole.git"
+  },
+  "keywords": [
+    "sass",
+    "npm",
+    "sasshole"
+  ],
+  "author": "Kitsatis Vasileios",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/KitsatisV/sasshole/issues"
+  },
+  "homepage": "https://github.com/KitsatisV/sasshole#readme"
+}
