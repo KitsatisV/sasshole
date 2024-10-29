@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/KitsatisV/sasshole/issues"
   },
-  "homepage": "https://github.com/KitsatisV/sasshole#readme"
+  "homepage": "https://github.com/KitsatisV/sasshole#readme",
+  "bin": {
+    "sasshole": "index.js"
+  }
 }
